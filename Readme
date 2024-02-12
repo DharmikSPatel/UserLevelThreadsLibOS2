@@ -1,0 +1,63 @@
+Dharmik Patel - dsp187
+Dhruv Chaudhry- dc1533
+
+Plan:
+    - read the pdf:
+        - understand ucontext(esp swap context)
+    - Basic Lib:
+        - notes:
+            - need a context for the schedular
+                - used for contextswaps
+            - need a context for main thread
+                - for benchmarks
+        - data structures: 
+            - TCB: thread control block
+                - thread_worker_type.h has description of this data structure
+            - Context: thread context
+                - each tcb has one
+                - use ucontexts
+                - look at recitiiton/example codes
+            - RunQueue: 
+                - a list of tcb that are ready to run
+            
+        - functions:
+            - thread creation: worker_create()
+                - malloc the stack for the new thread 
+                - use SIGSTKSZ for stack size
+                - get the context using makecontext()
+                - then use makecontext()
+                - sample program shows how to use ucontexts
+            - yeild: worker_yield()
+                - like calling sleep()
+                - used to voluntarly pause the curr thread and move to next thread
+            - exit: worker_exit()
+                - saves the return value, to give to the thread that calls worker_join
+                - what should we clean up in TCB and the queue
+            - join: worker_join()
+                - block the curr thread, until the thread it is waiting on exits. 
+                - gets the rtrn value of the thread its wating for
+    - Mutex:
+        - like POSIX mutexs
+        - worker_mutex_init()
+        - worker_mutex_lock():
+            - locks mutex
+            - blocks all threads waiting on the mutex
+        - worker_mutex_unlock():
+            - unlocks the mutex
+        - worker_mutex_destroy:
+            - make sure to unlock mutex b4 destroying it
+    - Schedular:
+        - FCFS: first come first serve
+            - just use this to make sure everything above is working
+            - NO premption
+            - then do RR
+        - RR: Round Robbin
+            - FCFS w/ premeption
+            - QUANTUM: amount of time per thread
+            - use timers:
+                - use sigaction() to register a singal 
+                - do this in main b4 calling worker 
+                - the handler func is the schedular()
+                - there are some small details about how timers work
+
+            

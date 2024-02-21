@@ -10,9 +10,13 @@
 #include "thread-worker.h"
 #include "thread_worker_types.h"
 
-#define STACK_SIZE 16 * 1024
-#define QUANTUM 10 * 1000
+#define STACK_SIZE SIGSTKSZ
+#define QUANTUM 10 * 1000 //10 milliseconds (time that it runs)
 
+//misc data structs
+tcb* runqueue = NULL;  // Assuming a linked list for the runqueue
+tcb* current_thread = NULL;
+ucontext_t scheduler_context;
 
 // INITIALIZE ALL YOUR OTHER VARIABLES HERE
 int init_scheduler_done = 0;
@@ -23,21 +27,32 @@ int init_scheduler_done = 0;
 int worker_create(worker_t *thread, pthread_attr_t *attr,
                   void *(*function)(void *), void *arg)
 {
-    // - create Thread Control Block (TCB)
+    tcb *new_thread = (tcb *)malloc(sizeof(tcb));
     // - create and initialize the context of this worker thread
+    getcontext(&(new_thread->thread_context));
+    new_thread->thread_context.uc_stack.ss_sp = new_thread->thread_stack;
+    new_thread->thread_context.uc_stack.ss_size = STACK_SIZE;
+    makecontext(&(new_thread->thread_context), (void (*)(void))function, 1, arg);
     // - allocate space of stack for this thread to run
     // after everything is set, push this thread into run queue and
+    //new_thread->next = runqueue;
+    runqueue = new_thread;
     // - make it ready for the execution.
+    new_thread->thread_status = READY;
+
     return 0;
 }
+    
 
 /* give CPU possession to other user-level worker threads voluntarily */
 int worker_yield()
 {
-
-    // - change worker thread's state from Running to Ready
+    // Change worker thread's state from Running to Ready
+    current_thread->thread_status = READY;
     // - save context of this thread to its thread control block
+    getcontext(&(current_thread->thread_context));
     // - switch from thread context to scheduler context
+    swapcontext(&(current_thread->thread_context), &scheduler_context);
     return 0;
 
 };

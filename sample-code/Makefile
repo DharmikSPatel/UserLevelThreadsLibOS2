@@ -11,5 +11,7 @@ timer: timer.c
 	$(CC) $(CFLAGS) $^ -o $@ 
 yield_swapcontext: yield_swapcontext.c
 	$(CC) $(CFLAGS) $^ -o $@ 
+testdharmik: testdharmik.c
+	$(CC) $(CFLAGS) $^ -o $@ 
 clean:
-	rm -rf getcontext makecontext swapcontext timer yield_swapcontext
+	rm -rf getcontext makecontext swapcontext timer yield_swapcontext testdharmik

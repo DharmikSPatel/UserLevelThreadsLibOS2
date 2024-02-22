@@ -28,7 +28,6 @@ int main(int argc, char **argv) {
 
 	// Allocate space for stack	
 	void *stack=malloc(STACK_SIZE);
-	
 	if (stack == NULL){
 		perror("Failed to allocate stack");
 		exit(1);

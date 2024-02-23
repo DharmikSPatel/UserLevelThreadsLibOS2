@@ -15,6 +15,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ucontext.h>
+#include <signal.h>
+// CHANGE: remove <pthread.h> after the CFLAGS have been removed from Makefile
+#include <pthread.h>
 #include "mutex_types.h"
 
 /* Function Declarations: */

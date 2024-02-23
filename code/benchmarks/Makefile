@@ -1,5 +1,6 @@
 CC = gcc
-CFLAGS = -g -w
+#CHANGE: remove all flags except -g -c
+CFLAGS = -g -w -std=c99 -Wvla -Wall -fsanitize=address,undefined
 
 all:: clean one_thread multiple_threads multiple_threads_yield multiple_threads_mutex multiple_threads_different_workload multiple_threads_with_return test
 

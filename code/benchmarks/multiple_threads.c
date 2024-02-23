@@ -51,6 +51,10 @@ int main(int argc, char **argv)
 	{
 		counter[i] = i + 1;
 	}
+	for(int i = 0; i < thread_num; i++){
+		printf("og %d", counter[i]);
+	}
+	printf("\n");
 
 	worker_t *thread = (worker_t *)malloc(thread_num * sizeof(worker_t));
 
@@ -59,9 +63,13 @@ int main(int argc, char **argv)
 		printf("Main thread creating worker thread %d\n", counter[i]);
 		worker_create(&thread[i], NULL, &dummy_work, &counter[i]);
 	}
-
+	for(int i = 0; i < thread_num; i++){
+		printf("middle %d", counter[i]);
+	}
+	printf("\n");
 	for (i = 0; i < thread_num; i++)
 	{
+		printf("waiting %d\n", counter[i]);
 		printf("Main thread waiting on thread %d\n", counter[i]);
 		worker_join(thread[i], NULL);
 	}

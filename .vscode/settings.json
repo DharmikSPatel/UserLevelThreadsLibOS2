@@ -1,5 +1,9 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "thread_worker_types.h": "c",
+        "queue.h": "c",
+        "stdlib.h": "c",
+        "pthread.h": "c"
     }
 }

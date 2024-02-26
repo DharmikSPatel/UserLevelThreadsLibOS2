@@ -19,12 +19,13 @@ Queue* init_queue(){
 }
 
 
-void enqueue(Queue* queue, struct TCB* temp) {
-    // node declaration
-    struct TCB* newNode = temp;
+void enqueue(Queue* queue, tcb* temp) {
+    //node declaration
+    struct node* newNode = (struct node*)malloc(sizeof(struct node));
+    newNode->data = temp;
     newNode->next = NULL;
 
-    if (queue->tail == NULL) {
+    if(queue->tail == NULL || queue->head == NULL) {
         queue->head = newNode;
         queue->tail = newNode;
     } else {
@@ -108,8 +109,3 @@ int main(){
 
     //free_queue(myQueue);
 }
- 
-
-
-
-

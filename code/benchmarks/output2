@@ -1,0 +1,4024 @@
+Running main thread
+INIT MUTEX DONE
+Main thread creating worker thread 1
+Main thread creating worker thread 2
+Main thread creating worker thread 3
+Main thread creating worker thread 4
+Main thread creating worker thread 5
+Main thread creating worker thread 6
+Main thread creating worker thread 7
+Main thread creating worker thread 8
+Main thread creating worker thread 9
+Main thread creating worker thread 10
+Main thread creating worker thread 11
+Main thread creating worker thread 12
+Main thread creating worker thread 13
+Main thread creating worker thread 14
+Main thread creating worker thread 15
+Main thread creating worker thread 16
+Main thread creating worker thread 17
+Main thread creating worker thread 18
+Main thread creating worker thread 19
+Main thread creating worker thread 20
+Main thread creating worker thread 21
+Main thread creating worker thread 22
+Main thread creating worker thread 23
+Main thread creating worker thread 24
+Main thread creating worker thread 25
+Main thread creating worker thread 26
+Main thread creating worker thread 27
+Main thread creating worker thread 28
+Main thread creating worker thread 29
+Main thread waiting on thread 1
+PREMEPT____(2)
+PREMEPT____(3)
+PREMEPT____(4)
+PREMEPT____(5)
+PREMEPT____(6)
+PREMEPT____(7)
+PREMEPT____(8)
+PREMEPT____(9)
+PREMEPT____(10)
+PREMEPT____(11)
+PREMEPT____(12)
+PREMEPT____(13)
+PREMEPT____(14)
+PREMEPT____(15)
+PREMEPT____(16)
+PREMEPT____(17)
+PREMEPT____(18)
+PREMEPT____(19)
+PREMEPT____(20)
+PREMEPT____(21)
+PREMEPT____(22)
+PREMEPT____(23)
+PREMEPT____(24)
+PREMEPT____(25)
+PREMEPT____(26)
+PREMEPT____(27)
+PREMEPT____(28)
+PREMEPT____(29)
+PREMEPT____(30)
+PREMEPT____(2)
+PREMEPT____(3)
+PREMEPT____(4)
+PREMEPT____(5)
+PREMEPT____(6)
+PREMEPT____(7)
+PREMEPT____(8)
+PREMEPT____(9)
+PREMEPT____(10)
+PREMEPT____(11)
+PREMEPT____(12)
+PREMEPT____(13)
+PREMEPT____(14)
+PREMEPT____(15)
+PREMEPT____(16)
+PREMEPT____(17)
+PREMEPT____(18)
+PREMEPT____(19)
+PREMEPT____(20)
+PREMEPT____(21)
+PREMEPT____(22)
+PREMEPT____(23)
+PREMEPT____(24)
+PREMEPT____(25)
+PREMEPT____(26)
+PREMEPT____(27)
+PREMEPT____(28)
+PREMEPT____(29)
+PREMEPT____(30)
+Thread 1 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (2)
+m_lock: waiting done(2)
+Thread 1 acquired mutex
+PREMEPT____(2)
+Thread 2 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (3)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+Thread 3 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (4)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+Thread 4 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (5)
+m_lock: AF testing if FLAG(1) is locked (5)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(5)
+Thread 5 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (6)
+m_lock: AF testing if FLAG(1) is locked (6)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(6)
+Thread 6 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (7)
+m_lock: AF testing if FLAG(1) is locked (7)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(7)
+Thread 7 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (8)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+Thread 8 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (9)
+m_lock: AF testing if FLAG(1) is locked (9)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(9)
+Thread 9 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (10)
+m_lock: AF testing if FLAG(1) is locked (10)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(10)
+Thread 10 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (11)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+Thread 11 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (12)
+m_lock: AF testing if FLAG(1) is locked (12)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(12)
+Thread 12 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (13)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+Thread 13 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (14)
+m_lock: AF testing if FLAG(1) is locked (14)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(14)
+Thread 14 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (15)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+Thread 15 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (16)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+Thread 16 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (17)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+Thread 17 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (18)
+m_lock: AF testing if FLAG(1) is locked (18)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(18)
+Thread 18 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (19)
+m_lock: AF testing if FLAG(1) is locked (19)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(19)
+Thread 19 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (20)
+m_lock: AF testing if FLAG(1) is locked (20)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(20)
+Thread 20 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (21)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+Thread 21 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (22)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+Thread 22 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (23)
+m_lock: AF testing if FLAG(1) is locked (23)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(23)
+Thread 23 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (24)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+Thread 24 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (25)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+Thread 25 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (26)
+m_lock: AF testing if FLAG(1) is locked (26)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(26)
+Thread 26 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (27)
+m_lock: AF testing if FLAG(1) is locked (27)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(27)
+Thread 27 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (28)
+m_lock: AF testing if FLAG(1) is locked (28)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(28)
+Thread 28 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (29)
+m_lock: AF testing if FLAG(1) is locked (29)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(29)
+Thread 29 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (30)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+PREMEPT____(2)
+Thread 1 running
+Thread 1 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(2)
+m_lock: waiting done(3)
+Thread 2 acquired mutex
+PREMEPT____(3)
+PREMEPT____(2)
+Thread 2 running
+Thread 2 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(3)
+Thread 1 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (2)
+m_lock: waiting done(2)
+Thread 1 acquired mutex
+PREMEPT____(2)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+PREMEPT____(3)
+PREMEPT____(2)
+PREMEPT____(3)
+Thread 1 running
+Thread 1 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(2)
+Thread 2 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (3)
+m_lock: waiting done(3)
+Thread 2 acquired mutex
+PREMEPT____(3)
+m_lock: AF testing if FLAG(1) is locked (5)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(5)
+PREMEPT____(2)
+Thread 2 running
+Thread 2 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(3)
+Thread 1 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (2)
+m_lock: waiting done(2)
+Thread 1 acquired mutex
+PREMEPT____(2)
+m_lock: AF testing if FLAG(1) is locked (6)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(6)
+PREMEPT____(3)
+PREMEPT____(2)
+Thread 2 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (3)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+Thread 1 running
+Thread 1 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(2)
+m_lock: waiting done(7)
+Thread 6 acquired mutex
+PREMEPT____(7)
+PREMEPT____(2)
+Thread 6 running
+Thread 6 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(7)
+Thread 1 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (2)
+m_lock: waiting done(2)
+Thread 1 acquired mutex
+PREMEPT____(2)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(7)
+PREMEPT____(2)
+Thread 6 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (7)
+m_lock: AF testing if FLAG(1) is locked (7)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(7)
+Thread 1 running
+Thread 1 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(2)
+m_lock: waiting done(9)
+Thread 8 acquired mutex
+PREMEPT____(9)
+PREMEPT____(2)
+Thread 8 running
+Thread 8 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(9)
+Thread 1 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (2)
+m_lock: waiting done(2)
+Thread 1 acquired mutex
+PREMEPT____(2)
+m_lock: AF testing if FLAG(1) is locked (10)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(10)
+PREMEPT____(9)
+PREMEPT____(2)
+Thread 8 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (9)
+m_lock: AF testing if FLAG(1) is locked (9)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(9)
+Thread 1 running
+Thread 1 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(2)
+m_lock: waiting done(11)
+Thread 10 acquired mutex
+PREMEPT____(11)
+PREMEPT____(2)
+Thread 10 running
+Thread 10 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(11)
+Thread 1 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (2)
+m_lock: waiting done(2)
+Thread 1 acquired mutex
+PREMEPT____(2)
+m_lock: AF testing if FLAG(1) is locked (12)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(12)
+PREMEPT____(11)
+PREMEPT____(2)
+Thread 10 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (11)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+Thread 1 running
+Thread 1 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(2)
+m_lock: waiting done(13)
+Thread 12 acquired mutex
+PREMEPT____(13)
+PREMEPT____(2)
+Thread 12 running
+Thread 12 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(13)
+Thread 1 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (2)
+m_lock: waiting done(2)
+Thread 1 acquired mutex
+PREMEPT____(2)
+m_lock: AF testing if FLAG(1) is locked (14)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(14)
+PREMEPT____(13)
+PREMEPT____(2)
+Thread 12 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (13)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+Thread 1 running
+Thread 1 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(2)
+m_lock: waiting done(15)
+Thread 14 acquired mutex
+PREMEPT____(15)
+PREMEPT____(2)
+Thread 14 running
+Thread 14 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(15)
+Thread 1 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (2)
+m_lock: waiting done(2)
+Thread 1 acquired mutex
+PREMEPT____(2)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+PREMEPT____(15)
+PREMEPT____(2)
+Thread 14 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (15)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+Thread 1 running
+Thread 1 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(2)
+m_lock: waiting done(17)
+Thread 16 acquired mutex
+PREMEPT____(17)
+PREMEPT____(2)
+Thread 16 running
+Thread 16 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(17)
+Thread 1 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (2)
+m_lock: waiting done(2)
+Thread 1 acquired mutex
+PREMEPT____(2)
+m_lock: AF testing if FLAG(1) is locked (18)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(18)
+PREMEPT____(17)
+PREMEPT____(2)
+Thread 16 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (17)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+Thread 1 running
+Thread 1 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(2)
+m_lock: waiting done(19)
+Thread 18 acquired mutex
+PREMEPT____(19)
+PREMEPT____(2)
+Thread 18 running
+Thread 18 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(19)
+Thread 1 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (2)
+m_lock: waiting done(2)
+Thread 1 acquired mutex
+PREMEPT____(2)
+m_lock: AF testing if FLAG(1) is locked (20)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(20)
+PREMEPT____(19)
+Thread 1 running
+Thread 1 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 1 exiting
+Thread 18 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (19)
+m_lock: waiting done(19)
+Thread 18 acquired mutex
+PREMEPT____(19)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+Main thread waiting on thread 2
+PREMEPT____(19)
+Thread 18 running
+Thread 18 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(19)
+m_lock: waiting done(22)
+Thread 21 acquired mutex
+PREMEPT____(22)
+PREMEPT____(19)
+Thread 21 running
+Thread 21 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(22)
+Thread 18 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (19)
+m_lock: waiting done(19)
+Thread 18 acquired mutex
+PREMEPT____(19)
+m_lock: AF testing if FLAG(1) is locked (23)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(23)
+PREMEPT____(22)
+PREMEPT____(19)
+Thread 21 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (22)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+Thread 18 running
+Thread 18 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(19)
+m_lock: waiting done(24)
+Thread 23 acquired mutex
+PREMEPT____(24)
+PREMEPT____(19)
+Thread 23 running
+Thread 23 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(24)
+Thread 18 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (19)
+m_lock: waiting done(19)
+Thread 18 acquired mutex
+PREMEPT____(19)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(24)
+PREMEPT____(19)
+Thread 23 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (24)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+Thread 18 running
+Thread 18 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(19)
+m_lock: waiting done(26)
+Thread 25 acquired mutex
+PREMEPT____(26)
+PREMEPT____(19)
+Thread 25 running
+Thread 25 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(26)
+Thread 18 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (19)
+m_lock: waiting done(19)
+Thread 18 acquired mutex
+PREMEPT____(19)
+m_lock: AF testing if FLAG(1) is locked (27)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(27)
+PREMEPT____(26)
+Thread 18 running
+Thread 18 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(19)
+Thread 25 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (26)
+m_lock: waiting done(26)
+Thread 25 acquired mutex
+PREMEPT____(26)
+m_lock: AF testing if FLAG(1) is locked (28)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(28)
+PREMEPT____(19)
+PREMEPT____(26)
+PREMEPT____(19)
+Thread 25 running
+Thread 25 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(26)
+Thread 18 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (19)
+m_lock: waiting done(19)
+Thread 18 acquired mutex
+PREMEPT____(19)
+m_lock: AF testing if FLAG(1) is locked (29)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(29)
+PREMEPT____(26)
+Thread 18 running
+Thread 18 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(19)
+Thread 25 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (26)
+m_lock: waiting done(26)
+Thread 25 acquired mutex
+PREMEPT____(26)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+PREMEPT____(19)
+PREMEPT____(26)
+PREMEPT____(19)
+Thread 25 running
+Thread 25 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(26)
+Thread 18 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (19)
+m_lock: waiting done(19)
+Thread 18 acquired mutex
+PREMEPT____(19)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+PREMEPT____(26)
+Thread 18 running
+Thread 18 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(19)
+Thread 25 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (26)
+m_lock: waiting done(26)
+Thread 25 acquired mutex
+PREMEPT____(26)
+m_lock: AF testing if FLAG(1) is locked (5)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(5)
+PREMEPT____(19)
+PREMEPT____(26)
+PREMEPT____(19)
+Thread 25 running
+Thread 25 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(26)
+Thread 18 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (19)
+m_lock: waiting done(19)
+Thread 18 acquired mutex
+PREMEPT____(19)
+m_lock: AF testing if FLAG(1) is locked (6)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(6)
+PREMEPT____(26)
+Thread 18 running
+Thread 18 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(19)
+Thread 25 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (26)
+m_lock: waiting done(26)
+Thread 25 acquired mutex
+PREMEPT____(26)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+PREMEPT____(19)
+PREMEPT____(26)
+Thread 18 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (19)
+m_lock: AF testing if FLAG(1) is locked (19)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(19)
+Thread 25 running
+Thread 25 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(26)
+m_lock: waiting done(8)
+Thread 7 acquired mutex
+PREMEPT____(8)
+PREMEPT____(26)
+Thread 7 running
+Thread 7 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(8)
+Thread 25 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (26)
+m_lock: waiting done(26)
+Thread 25 acquired mutex
+PREMEPT____(26)
+m_lock: AF testing if FLAG(1) is locked (7)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(7)
+PREMEPT____(8)
+PREMEPT____(26)
+Thread 7 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (8)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+Thread 25 running
+Thread 25 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(26)
+m_lock: waiting done(10)
+Thread 9 acquired mutex
+PREMEPT____(10)
+PREMEPT____(26)
+Thread 9 running
+Thread 9 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(10)
+Thread 25 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (26)
+m_lock: waiting done(26)
+Thread 25 acquired mutex
+PREMEPT____(26)
+m_lock: AF testing if FLAG(1) is locked (9)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(9)
+PREMEPT____(10)
+PREMEPT____(26)
+Thread 9 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (10)
+m_lock: AF testing if FLAG(1) is locked (10)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(10)
+Thread 25 running
+Thread 25 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(26)
+m_lock: waiting done(12)
+Thread 11 acquired mutex
+PREMEPT____(12)
+PREMEPT____(26)
+Thread 11 running
+Thread 11 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(12)
+Thread 25 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (26)
+m_lock: waiting done(26)
+Thread 25 acquired mutex
+PREMEPT____(26)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(12)
+Thread 25 running
+Thread 25 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(26)
+Thread 11 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (12)
+m_lock: waiting done(12)
+Thread 11 acquired mutex
+PREMEPT____(12)
+m_lock: AF testing if FLAG(1) is locked (14)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(14)
+PREMEPT____(26)
+PREMEPT____(12)
+PREMEPT____(26)
+Thread 11 running
+Thread 11 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(12)
+Thread 25 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (26)
+m_lock: waiting done(26)
+Thread 25 acquired mutex
+PREMEPT____(26)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(12)
+Thread 25 running
+Thread 25 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(26)
+Thread 11 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (12)
+m_lock: waiting done(12)
+Thread 11 acquired mutex
+PREMEPT____(12)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+PREMEPT____(26)
+PREMEPT____(12)
+Thread 25 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (26)
+m_lock: AF testing if FLAG(1) is locked (26)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(26)
+Thread 11 running
+Thread 11 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(12)
+m_lock: waiting done(15)
+Thread 14 acquired mutex
+PREMEPT____(15)
+PREMEPT____(12)
+Thread 14 running
+Thread 14 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(15)
+Thread 11 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (12)
+m_lock: waiting done(12)
+Thread 11 acquired mutex
+PREMEPT____(12)
+m_lock: AF testing if FLAG(1) is locked (18)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(18)
+PREMEPT____(15)
+PREMEPT____(12)
+PREMEPT____(15)
+Thread 11 running
+Thread 11 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(12)
+Thread 14 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (15)
+m_lock: waiting done(15)
+Thread 14 acquired mutex
+PREMEPT____(15)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+PREMEPT____(12)
+Thread 14 running
+Thread 14 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(15)
+Thread 11 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (12)
+m_lock: waiting done(12)
+Thread 11 acquired mutex
+PREMEPT____(12)
+m_lock: AF testing if FLAG(1) is locked (20)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(20)
+PREMEPT____(15)
+PREMEPT____(12)
+PREMEPT____(15)
+Thread 11 running
+Thread 11 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(12)
+Thread 14 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (15)
+m_lock: waiting done(15)
+Thread 14 acquired mutex
+PREMEPT____(15)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+PREMEPT____(12)
+Thread 14 running
+Thread 14 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(15)
+Thread 11 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (12)
+m_lock: waiting done(12)
+Thread 11 acquired mutex
+PREMEPT____(12)
+m_lock: AF testing if FLAG(1) is locked (23)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(23)
+PREMEPT____(15)
+PREMEPT____(12)
+Thread 14 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (15)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+Thread 11 running
+Thread 11 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(12)
+m_lock: waiting done(22)
+Thread 21 acquired mutex
+PREMEPT____(22)
+PREMEPT____(12)
+Thread 21 running
+Thread 21 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(22)
+Thread 11 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (12)
+m_lock: waiting done(12)
+Thread 11 acquired mutex
+PREMEPT____(12)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(22)
+PREMEPT____(12)
+Thread 21 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (22)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+Thread 11 running
+Thread 11 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(12)
+m_lock: waiting done(24)
+Thread 23 acquired mutex
+PREMEPT____(24)
+PREMEPT____(12)
+Thread 23 running
+Thread 23 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(24)
+Thread 11 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (12)
+m_lock: waiting done(12)
+Thread 11 acquired mutex
+PREMEPT____(12)
+m_lock: AF testing if FLAG(1) is locked (27)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(27)
+PREMEPT____(24)
+PREMEPT____(12)
+Thread 23 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (24)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+Thread 11 running
+Thread 11 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(12)
+m_lock: waiting done(28)
+Thread 27 acquired mutex
+PREMEPT____(28)
+PREMEPT____(12)
+Thread 27 running
+Thread 27 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(28)
+Thread 11 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (12)
+m_lock: waiting done(12)
+Thread 11 acquired mutex
+PREMEPT____(12)
+m_lock: AF testing if FLAG(1) is locked (29)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(29)
+PREMEPT____(28)
+Thread 11 running
+Thread 11 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(12)
+Thread 27 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (28)
+m_lock: waiting done(28)
+Thread 27 acquired mutex
+PREMEPT____(28)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+PREMEPT____(12)
+PREMEPT____(28)
+PREMEPT____(12)
+Thread 27 running
+Thread 27 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(28)
+Thread 11 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (12)
+m_lock: waiting done(12)
+Thread 11 acquired mutex
+PREMEPT____(12)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+PREMEPT____(28)
+Thread 11 running
+Thread 11 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 11 exiting
+Thread 27 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (28)
+m_lock: waiting done(28)
+Thread 27 acquired mutex
+PREMEPT____(28)
+m_lock: AF testing if FLAG(1) is locked (5)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(5)
+PREMEPT____(28)
+Thread 27 running
+Thread 27 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(28)
+m_lock: waiting done(6)
+Thread 5 acquired mutex
+PREMEPT____(6)
+PREMEPT____(28)
+Thread 5 running
+Thread 5 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(6)
+Thread 27 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (28)
+m_lock: waiting done(28)
+Thread 27 acquired mutex
+PREMEPT____(28)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+PREMEPT____(6)
+PREMEPT____(28)
+Thread 5 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (6)
+m_lock: AF testing if FLAG(1) is locked (6)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(6)
+Thread 27 running
+Thread 27 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(28)
+m_lock: waiting done(19)
+Thread 18 acquired mutex
+PREMEPT____(19)
+PREMEPT____(28)
+Thread 18 running
+Thread 18 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(19)
+Thread 27 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (28)
+m_lock: waiting done(28)
+Thread 27 acquired mutex
+PREMEPT____(28)
+m_lock: AF testing if FLAG(1) is locked (7)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(7)
+PREMEPT____(19)
+PREMEPT____(28)
+Thread 18 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (19)
+m_lock: AF testing if FLAG(1) is locked (19)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(19)
+Thread 27 running
+Thread 27 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(28)
+m_lock: waiting done(8)
+Thread 7 acquired mutex
+PREMEPT____(8)
+PREMEPT____(28)
+Thread 7 running
+Thread 7 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(8)
+Thread 27 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (28)
+m_lock: waiting done(28)
+Thread 27 acquired mutex
+PREMEPT____(28)
+m_lock: AF testing if FLAG(1) is locked (9)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(9)
+PREMEPT____(8)
+PREMEPT____(28)
+Thread 7 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (8)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+Thread 27 running
+Thread 27 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(28)
+m_lock: waiting done(10)
+Thread 9 acquired mutex
+PREMEPT____(10)
+PREMEPT____(28)
+Thread 9 running
+Thread 9 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(10)
+Thread 27 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (28)
+m_lock: waiting done(28)
+Thread 27 acquired mutex
+PREMEPT____(28)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(10)
+Thread 27 running
+Thread 27 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(28)
+Thread 9 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (10)
+m_lock: waiting done(10)
+Thread 9 acquired mutex
+PREMEPT____(10)
+m_lock: AF testing if FLAG(1) is locked (14)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(14)
+PREMEPT____(28)
+PREMEPT____(10)
+PREMEPT____(28)
+Thread 9 running
+Thread 9 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(10)
+Thread 27 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (28)
+m_lock: waiting done(28)
+Thread 27 acquired mutex
+PREMEPT____(28)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(10)
+Thread 27 running
+Thread 27 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(28)
+Thread 9 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (10)
+m_lock: waiting done(10)
+Thread 9 acquired mutex
+PREMEPT____(10)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+PREMEPT____(28)
+PREMEPT____(10)
+PREMEPT____(28)
+Thread 9 running
+Thread 9 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(10)
+Thread 27 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (28)
+m_lock: waiting done(28)
+Thread 27 acquired mutex
+PREMEPT____(28)
+m_lock: AF testing if FLAG(1) is locked (26)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(26)
+PREMEPT____(10)
+Thread 27 running
+Thread 27 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(28)
+Thread 9 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (10)
+m_lock: waiting done(10)
+Thread 9 acquired mutex
+PREMEPT____(10)
+m_lock: AF testing if FLAG(1) is locked (18)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(18)
+PREMEPT____(28)
+PREMEPT____(10)
+Thread 27 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (28)
+m_lock: AF testing if FLAG(1) is locked (28)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(28)
+Thread 9 running
+Thread 9 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(10)
+m_lock: waiting done(17)
+Thread 16 acquired mutex
+PREMEPT____(17)
+PREMEPT____(10)
+Thread 16 running
+Thread 16 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(17)
+Thread 9 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (10)
+m_lock: waiting done(10)
+Thread 9 acquired mutex
+PREMEPT____(10)
+m_lock: AF testing if FLAG(1) is locked (20)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(20)
+PREMEPT____(17)
+Thread 9 running
+Thread 9 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(10)
+Thread 16 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (17)
+m_lock: waiting done(17)
+Thread 16 acquired mutex
+PREMEPT____(17)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+PREMEPT____(10)
+PREMEPT____(17)
+PREMEPT____(10)
+Thread 16 running
+Thread 16 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(17)
+Thread 9 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (10)
+m_lock: waiting done(10)
+Thread 9 acquired mutex
+PREMEPT____(10)
+m_lock: AF testing if FLAG(1) is locked (23)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(23)
+PREMEPT____(17)
+Thread 9 running
+Thread 9 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(10)
+Thread 16 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (17)
+m_lock: waiting done(17)
+Thread 16 acquired mutex
+PREMEPT____(17)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+PREMEPT____(10)
+PREMEPT____(17)
+PREMEPT____(10)
+Thread 16 running
+Thread 16 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(17)
+Thread 9 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (10)
+m_lock: waiting done(10)
+Thread 9 acquired mutex
+PREMEPT____(10)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(17)
+Thread 9 running
+Thread 9 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(10)
+Thread 16 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (17)
+m_lock: waiting done(17)
+Thread 16 acquired mutex
+PREMEPT____(17)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+PREMEPT____(10)
+Thread 16 running
+Thread 16 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(17)
+Thread 9 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (10)
+m_lock: waiting done(10)
+Thread 9 acquired mutex
+PREMEPT____(10)
+m_lock: AF testing if FLAG(1) is locked (27)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(27)
+PREMEPT____(17)
+PREMEPT____(10)
+PREMEPT____(17)
+Thread 9 running
+Thread 9 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(10)
+Thread 16 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (17)
+m_lock: waiting done(17)
+Thread 16 acquired mutex
+PREMEPT____(17)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+PREMEPT____(10)
+Thread 16 running
+Thread 16 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(17)
+Thread 9 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (10)
+m_lock: waiting done(10)
+Thread 9 acquired mutex
+PREMEPT____(10)
+m_lock: AF testing if FLAG(1) is locked (29)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(29)
+PREMEPT____(17)
+PREMEPT____(10)
+Thread 16 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (17)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+Thread 9 running
+Thread 9 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 9 exiting
+m_lock: waiting done(30)
+Thread 29 acquired mutex
+PREMEPT____(30)
+Thread 29 running
+Thread 29 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(30)
+m_lock: waiting done(4)
+Thread 3 acquired mutex
+PREMEPT____(4)
+PREMEPT____(30)
+Thread 3 running
+Thread 3 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(4)
+Thread 29 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (30)
+m_lock: waiting done(30)
+Thread 29 acquired mutex
+PREMEPT____(30)
+m_lock: AF testing if FLAG(1) is locked (5)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(5)
+PREMEPT____(4)
+PREMEPT____(30)
+Thread 3 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (4)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+Thread 29 running
+Thread 29 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(30)
+m_lock: waiting done(3)
+Thread 2 acquired mutex
+PREMEPT____(3)
+PREMEPT____(30)
+Thread 2 running
+Thread 2 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(3)
+Thread 29 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (30)
+m_lock: waiting done(30)
+Thread 29 acquired mutex
+PREMEPT____(30)
+m_lock: AF testing if FLAG(1) is locked (6)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(6)
+PREMEPT____(3)
+PREMEPT____(30)
+Thread 2 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (3)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+Thread 29 running
+Thread 29 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(30)
+m_lock: waiting done(7)
+Thread 6 acquired mutex
+PREMEPT____(7)
+PREMEPT____(30)
+Thread 6 running
+Thread 6 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(7)
+PREMEPT____(30)
+m_lock: waiting done(19)
+Thread 18 acquired mutex
+PREMEPT____(19)
+PREMEPT____(7)
+Thread 29 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (30)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+Thread 18 running
+Thread 18 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 18 exiting
+Thread 6 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (7)
+m_lock: waiting done(7)
+Thread 6 acquired mutex
+PREMEPT____(7)
+m_lock: AF testing if FLAG(1) is locked (9)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(9)
+PREMEPT____(7)
+Thread 6 running
+Thread 6 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(7)
+m_lock: waiting done(8)
+Thread 7 acquired mutex
+PREMEPT____(8)
+PREMEPT____(7)
+Thread 7 running
+Thread 7 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(8)
+Thread 6 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (7)
+m_lock: waiting done(7)
+Thread 6 acquired mutex
+PREMEPT____(7)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(8)
+PREMEPT____(7)
+Thread 7 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (8)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+Thread 6 running
+Thread 6 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(7)
+m_lock: waiting done(14)
+Thread 13 acquired mutex
+PREMEPT____(14)
+PREMEPT____(7)
+Thread 13 running
+Thread 13 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(14)
+Thread 6 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (7)
+m_lock: waiting done(7)
+Thread 6 acquired mutex
+PREMEPT____(7)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(14)
+PREMEPT____(7)
+Thread 13 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (14)
+m_lock: AF testing if FLAG(1) is locked (14)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(14)
+Thread 6 running
+Thread 6 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(7)
+m_lock: waiting done(16)
+Thread 15 acquired mutex
+PREMEPT____(16)
+PREMEPT____(7)
+Thread 15 running
+Thread 15 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(16)
+Thread 6 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (7)
+m_lock: waiting done(7)
+Thread 6 acquired mutex
+PREMEPT____(7)
+m_lock: AF testing if FLAG(1) is locked (26)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(26)
+PREMEPT____(16)
+PREMEPT____(7)
+Thread 15 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (16)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+Thread 6 running
+Thread 6 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(7)
+m_lock: waiting done(18)
+Thread 17 acquired mutex
+PREMEPT____(18)
+PREMEPT____(7)
+Thread 17 running
+Thread 17 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(18)
+Thread 6 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (7)
+m_lock: waiting done(7)
+Thread 6 acquired mutex
+PREMEPT____(7)
+m_lock: AF testing if FLAG(1) is locked (28)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(28)
+PREMEPT____(18)
+PREMEPT____(7)
+Thread 17 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (18)
+m_lock: AF testing if FLAG(1) is locked (18)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(18)
+Thread 6 running
+Thread 6 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(7)
+m_lock: waiting done(20)
+Thread 19 acquired mutex
+PREMEPT____(20)
+PREMEPT____(7)
+Thread 19 running
+Thread 19 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(20)
+Thread 6 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (7)
+m_lock: waiting done(7)
+Thread 6 acquired mutex
+PREMEPT____(7)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+PREMEPT____(20)
+PREMEPT____(7)
+Thread 19 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (20)
+m_lock: AF testing if FLAG(1) is locked (20)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(20)
+Thread 6 running
+Thread 6 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(7)
+m_lock: waiting done(23)
+Thread 22 acquired mutex
+PREMEPT____(23)
+PREMEPT____(7)
+Thread 22 running
+Thread 22 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(23)
+Thread 6 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (7)
+m_lock: waiting done(7)
+Thread 6 acquired mutex
+PREMEPT____(7)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+PREMEPT____(23)
+Thread 6 running
+Thread 6 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(7)
+Thread 22 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (23)
+m_lock: waiting done(23)
+Thread 22 acquired mutex
+PREMEPT____(23)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(7)
+PREMEPT____(23)
+PREMEPT____(7)
+Thread 22 running
+Thread 22 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(23)
+Thread 6 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (7)
+m_lock: waiting done(7)
+Thread 6 acquired mutex
+PREMEPT____(7)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+PREMEPT____(23)
+Thread 6 running
+Thread 6 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 6 exiting
+Thread 22 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (23)
+m_lock: waiting done(23)
+Thread 22 acquired mutex
+PREMEPT____(23)
+m_lock: AF testing if FLAG(1) is locked (27)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(27)
+PREMEPT____(23)
+Thread 22 running
+Thread 22 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(23)
+m_lock: waiting done(24)
+Thread 23 acquired mutex
+PREMEPT____(24)
+PREMEPT____(23)
+Thread 23 running
+Thread 23 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(24)
+Thread 22 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (23)
+m_lock: waiting done(23)
+Thread 22 acquired mutex
+PREMEPT____(23)
+m_lock: AF testing if FLAG(1) is locked (29)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(29)
+PREMEPT____(24)
+PREMEPT____(23)
+Thread 23 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (24)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+Thread 22 running
+Thread 22 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(23)
+m_lock: waiting done(17)
+Thread 16 acquired mutex
+PREMEPT____(17)
+PREMEPT____(23)
+Thread 16 running
+Thread 16 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(17)
+Thread 22 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (23)
+m_lock: waiting done(23)
+Thread 22 acquired mutex
+PREMEPT____(23)
+m_lock: AF testing if FLAG(1) is locked (5)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(5)
+PREMEPT____(17)
+PREMEPT____(23)
+Thread 16 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (17)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+Thread 22 running
+Thread 22 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(23)
+m_lock: waiting done(4)
+Thread 3 acquired mutex
+PREMEPT____(4)
+PREMEPT____(23)
+Thread 3 running
+Thread 3 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(4)
+Thread 22 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (23)
+m_lock: waiting done(23)
+Thread 22 acquired mutex
+PREMEPT____(23)
+m_lock: AF testing if FLAG(1) is locked (6)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(6)
+PREMEPT____(4)
+PREMEPT____(23)
+Thread 3 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (4)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+Thread 22 running
+Thread 22 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(23)
+m_lock: waiting done(3)
+Thread 2 acquired mutex
+PREMEPT____(3)
+PREMEPT____(23)
+Thread 2 running
+Thread 2 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(3)
+Thread 22 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (23)
+m_lock: waiting done(23)
+Thread 22 acquired mutex
+PREMEPT____(23)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+PREMEPT____(3)
+PREMEPT____(23)
+Thread 2 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (3)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+Thread 22 running
+Thread 22 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(23)
+m_lock: waiting done(9)
+Thread 8 acquired mutex
+PREMEPT____(9)
+PREMEPT____(23)
+Thread 8 running
+Thread 8 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(9)
+Thread 22 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (23)
+m_lock: waiting done(23)
+Thread 22 acquired mutex
+PREMEPT____(23)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(9)
+Thread 22 running
+Thread 22 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(23)
+Thread 8 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (9)
+m_lock: waiting done(9)
+Thread 8 acquired mutex
+PREMEPT____(9)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(23)
+PREMEPT____(9)
+PREMEPT____(23)
+Thread 8 running
+Thread 8 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(9)
+Thread 22 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (23)
+m_lock: waiting done(23)
+Thread 22 acquired mutex
+PREMEPT____(23)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(9)
+Thread 22 running
+Thread 22 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(23)
+Thread 8 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (9)
+m_lock: waiting done(9)
+Thread 8 acquired mutex
+PREMEPT____(9)
+m_lock: AF testing if FLAG(1) is locked (14)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(14)
+PREMEPT____(23)
+PREMEPT____(9)
+PREMEPT____(23)
+Thread 8 running
+Thread 8 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(9)
+Thread 22 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (23)
+m_lock: waiting done(23)
+Thread 22 acquired mutex
+PREMEPT____(23)
+m_lock: AF testing if FLAG(1) is locked (26)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(26)
+PREMEPT____(9)
+Thread 22 running
+Thread 22 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 22 exiting
+Thread 8 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (9)
+m_lock: waiting done(9)
+Thread 8 acquired mutex
+PREMEPT____(9)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+Thread 8 running
+Thread 8 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(9)
+m_lock: waiting done(28)
+Thread 27 acquired mutex
+PREMEPT____(28)
+PREMEPT____(9)
+Thread 27 running
+Thread 27 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 27 exiting
+PREMEPT____(9)
+m_lock: waiting done(18)
+Thread 17 acquired mutex
+PREMEPT____(18)
+Thread 8 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (9)
+m_lock: AF testing if FLAG(1) is locked (9)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(9)
+Thread 17 running
+Thread 17 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(18)
+m_lock: waiting done(21)
+Thread 20 acquired mutex
+PREMEPT____(21)
+PREMEPT____(18)
+Thread 20 running
+Thread 20 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(21)
+Thread 17 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (18)
+m_lock: waiting done(18)
+Thread 17 acquired mutex
+PREMEPT____(18)
+m_lock: AF testing if FLAG(1) is locked (20)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(20)
+PREMEPT____(21)
+PREMEPT____(18)
+Thread 20 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (21)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+Thread 17 running
+Thread 17 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(18)
+m_lock: waiting done(15)
+Thread 14 acquired mutex
+PREMEPT____(15)
+PREMEPT____(18)
+Thread 14 running
+Thread 14 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(15)
+Thread 17 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (18)
+m_lock: waiting done(18)
+Thread 17 acquired mutex
+PREMEPT____(18)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(15)
+PREMEPT____(18)
+Thread 14 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (15)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+Thread 17 running
+Thread 17 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(18)
+m_lock: waiting done(22)
+Thread 21 acquired mutex
+PREMEPT____(22)
+PREMEPT____(18)
+Thread 21 running
+Thread 21 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(22)
+Thread 17 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (18)
+m_lock: waiting done(18)
+Thread 17 acquired mutex
+PREMEPT____(18)
+m_lock: AF testing if FLAG(1) is locked (27)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(27)
+PREMEPT____(22)
+PREMEPT____(18)
+Thread 21 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (22)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+Thread 17 running
+Thread 17 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(18)
+m_lock: waiting done(29)
+Thread 28 acquired mutex
+PREMEPT____(29)
+PREMEPT____(18)
+Thread 28 running
+Thread 28 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(29)
+Thread 17 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (18)
+m_lock: waiting done(18)
+Thread 17 acquired mutex
+PREMEPT____(18)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+PREMEPT____(29)
+PREMEPT____(18)
+Thread 28 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (29)
+m_lock: AF testing if FLAG(1) is locked (29)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(29)
+Thread 17 running
+Thread 17 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(18)
+m_lock: waiting done(5)
+Thread 4 acquired mutex
+PREMEPT____(5)
+PREMEPT____(18)
+Thread 4 running
+Thread 4 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(5)
+Thread 17 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (18)
+m_lock: waiting done(18)
+Thread 17 acquired mutex
+PREMEPT____(18)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+PREMEPT____(5)
+Thread 17 running
+Thread 17 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(18)
+Thread 4 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (5)
+m_lock: waiting done(5)
+Thread 4 acquired mutex
+PREMEPT____(5)
+m_lock: AF testing if FLAG(1) is locked (6)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(6)
+PREMEPT____(18)
+PREMEPT____(5)
+PREMEPT____(18)
+Thread 4 running
+Thread 4 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(5)
+Thread 17 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (18)
+m_lock: waiting done(18)
+Thread 17 acquired mutex
+PREMEPT____(18)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+PREMEPT____(5)
+Thread 17 running
+Thread 17 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(18)
+Thread 4 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (5)
+m_lock: waiting done(5)
+Thread 4 acquired mutex
+PREMEPT____(5)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+PREMEPT____(18)
+PREMEPT____(5)
+Thread 17 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (18)
+m_lock: AF testing if FLAG(1) is locked (18)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(18)
+Thread 4 running
+Thread 4 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(5)
+m_lock: waiting done(3)
+Thread 2 acquired mutex
+PREMEPT____(3)
+PREMEPT____(5)
+Thread 2 running
+Thread 2 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(3)
+Thread 4 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (5)
+m_lock: waiting done(5)
+Thread 4 acquired mutex
+PREMEPT____(5)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(3)
+PREMEPT____(5)
+Thread 2 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (3)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+Thread 4 running
+Thread 4 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(5)
+m_lock: waiting done(8)
+Thread 7 acquired mutex
+PREMEPT____(8)
+PREMEPT____(5)
+Thread 7 running
+Thread 7 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(8)
+Thread 4 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (5)
+m_lock: waiting done(5)
+Thread 4 acquired mutex
+PREMEPT____(5)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(8)
+PREMEPT____(5)
+Thread 7 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (8)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+Thread 4 running
+Thread 4 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(5)
+m_lock: waiting done(14)
+Thread 13 acquired mutex
+PREMEPT____(14)
+PREMEPT____(5)
+Thread 13 running
+Thread 13 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(14)
+Thread 4 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (5)
+m_lock: waiting done(5)
+Thread 4 acquired mutex
+PREMEPT____(5)
+m_lock: AF testing if FLAG(1) is locked (26)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(26)
+PREMEPT____(14)
+PREMEPT____(5)
+Thread 13 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (14)
+m_lock: AF testing if FLAG(1) is locked (14)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(14)
+Thread 4 running
+Thread 4 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(5)
+m_lock: waiting done(16)
+Thread 15 acquired mutex
+PREMEPT____(16)
+PREMEPT____(5)
+Thread 15 running
+Thread 15 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(16)
+Thread 4 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (5)
+m_lock: waiting done(5)
+Thread 4 acquired mutex
+PREMEPT____(5)
+m_lock: AF testing if FLAG(1) is locked (9)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(9)
+PREMEPT____(16)
+PREMEPT____(5)
+Thread 15 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (16)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+Thread 4 running
+Thread 4 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(5)
+m_lock: waiting done(20)
+Thread 19 acquired mutex
+PREMEPT____(20)
+PREMEPT____(5)
+Thread 19 running
+Thread 19 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(20)
+Thread 4 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (5)
+m_lock: waiting done(5)
+Thread 4 acquired mutex
+PREMEPT____(5)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+PREMEPT____(20)
+PREMEPT____(5)
+Thread 19 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (20)
+m_lock: AF testing if FLAG(1) is locked (20)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(20)
+Thread 4 running
+Thread 4 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(5)
+m_lock: waiting done(25)
+Thread 24 acquired mutex
+PREMEPT____(25)
+PREMEPT____(5)
+Thread 24 running
+Thread 24 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(25)
+Thread 4 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (5)
+m_lock: waiting done(5)
+Thread 4 acquired mutex
+PREMEPT____(5)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+PREMEPT____(25)
+PREMEPT____(5)
+Thread 24 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (25)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+Thread 4 running
+Thread 4 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(5)
+m_lock: waiting done(27)
+Thread 26 acquired mutex
+PREMEPT____(27)
+PREMEPT____(5)
+Thread 26 running
+Thread 26 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(27)
+Thread 4 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (5)
+m_lock: waiting done(5)
+Thread 4 acquired mutex
+PREMEPT____(5)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+PREMEPT____(27)
+Thread 4 running
+Thread 4 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 4 exiting
+Thread 26 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (27)
+m_lock: waiting done(27)
+Thread 26 acquired mutex
+PREMEPT____(27)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+PREMEPT____(27)
+Thread 26 running
+Thread 26 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(27)
+m_lock: waiting done(29)
+Thread 28 acquired mutex
+PREMEPT____(29)
+PREMEPT____(27)
+Thread 28 running
+Thread 28 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(29)
+Thread 26 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (27)
+m_lock: waiting done(27)
+Thread 26 acquired mutex
+PREMEPT____(27)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+PREMEPT____(29)
+PREMEPT____(27)
+Thread 28 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (29)
+m_lock: AF testing if FLAG(1) is locked (29)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(29)
+Thread 26 running
+Thread 26 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(27)
+m_lock: waiting done(6)
+Thread 5 acquired mutex
+PREMEPT____(6)
+PREMEPT____(27)
+Thread 5 running
+Thread 5 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(6)
+Thread 26 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (27)
+m_lock: waiting done(27)
+Thread 26 acquired mutex
+PREMEPT____(27)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+PREMEPT____(6)
+PREMEPT____(27)
+Thread 5 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (6)
+m_lock: AF testing if FLAG(1) is locked (6)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(6)
+Thread 26 running
+Thread 26 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(27)
+m_lock: waiting done(30)
+Thread 29 acquired mutex
+PREMEPT____(30)
+PREMEPT____(27)
+Thread 29 running
+Thread 29 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(30)
+Thread 26 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (27)
+m_lock: waiting done(27)
+Thread 26 acquired mutex
+PREMEPT____(27)
+m_lock: AF testing if FLAG(1) is locked (18)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(18)
+PREMEPT____(30)
+PREMEPT____(27)
+Thread 29 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (30)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+Thread 26 running
+Thread 26 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(27)
+m_lock: waiting done(11)
+Thread 10 acquired mutex
+PREMEPT____(11)
+PREMEPT____(27)
+Thread 10 running
+Thread 10 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(11)
+Thread 26 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (27)
+m_lock: waiting done(27)
+Thread 26 acquired mutex
+PREMEPT____(27)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+PREMEPT____(11)
+PREMEPT____(27)
+Thread 10 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (11)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+Thread 26 running
+Thread 26 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(27)
+m_lock: waiting done(13)
+Thread 12 acquired mutex
+PREMEPT____(13)
+PREMEPT____(27)
+Thread 12 running
+Thread 12 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(13)
+Thread 26 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (27)
+m_lock: waiting done(27)
+Thread 26 acquired mutex
+PREMEPT____(27)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(13)
+PREMEPT____(27)
+Thread 12 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (13)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+Thread 26 running
+Thread 26 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(27)
+m_lock: waiting done(26)
+Thread 25 acquired mutex
+PREMEPT____(26)
+PREMEPT____(27)
+Thread 25 running
+Thread 25 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 25 exiting
+Thread 26 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (27)
+m_lock: waiting done(27)
+Thread 26 acquired mutex
+PREMEPT____(27)
+m_lock: AF testing if FLAG(1) is locked (14)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(14)
+PREMEPT____(27)
+Thread 26 running
+Thread 26 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(27)
+m_lock: waiting done(9)
+Thread 8 acquired mutex
+PREMEPT____(9)
+PREMEPT____(27)
+Thread 8 running
+Thread 8 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(9)
+Thread 26 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (27)
+m_lock: waiting done(27)
+Thread 26 acquired mutex
+PREMEPT____(27)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+PREMEPT____(9)
+Thread 26 running
+Thread 26 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(27)
+Thread 8 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (9)
+m_lock: waiting done(9)
+Thread 8 acquired mutex
+PREMEPT____(9)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+PREMEPT____(27)
+PREMEPT____(9)
+PREMEPT____(27)
+Thread 8 running
+Thread 8 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(9)
+Thread 26 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (27)
+m_lock: waiting done(27)
+Thread 26 acquired mutex
+PREMEPT____(27)
+m_lock: AF testing if FLAG(1) is locked (20)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(20)
+PREMEPT____(9)
+Thread 26 running
+Thread 26 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 26 exiting
+Thread 8 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (9)
+m_lock: waiting done(9)
+Thread 8 acquired mutex
+PREMEPT____(9)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+PREMEPT____(9)
+Thread 8 running
+Thread 8 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(9)
+m_lock: waiting done(25)
+Thread 24 acquired mutex
+PREMEPT____(25)
+PREMEPT____(9)
+Thread 24 running
+Thread 24 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(25)
+Thread 8 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (9)
+m_lock: waiting done(9)
+Thread 8 acquired mutex
+PREMEPT____(9)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+PREMEPT____(25)
+PREMEPT____(9)
+Thread 24 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (25)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+Thread 8 running
+Thread 8 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(9)
+m_lock: waiting done(24)
+Thread 23 acquired mutex
+PREMEPT____(24)
+PREMEPT____(9)
+Thread 23 running
+Thread 23 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(24)
+Thread 8 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (9)
+m_lock: waiting done(9)
+Thread 8 acquired mutex
+PREMEPT____(9)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+PREMEPT____(24)
+PREMEPT____(9)
+Thread 23 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (24)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+Thread 8 running
+Thread 8 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 8 exiting
+m_lock: waiting done(29)
+Thread 28 acquired mutex
+PREMEPT____(29)
+Thread 28 running
+Thread 28 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(29)
+m_lock: waiting done(4)
+Thread 3 acquired mutex
+PREMEPT____(4)
+PREMEPT____(29)
+Thread 3 running
+Thread 3 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(4)
+Thread 28 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (29)
+m_lock: waiting done(29)
+Thread 28 acquired mutex
+PREMEPT____(29)
+m_lock: AF testing if FLAG(1) is locked (6)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(6)
+PREMEPT____(4)
+PREMEPT____(29)
+Thread 3 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (4)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+Thread 28 running
+Thread 28 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(29)
+m_lock: waiting done(18)
+Thread 17 acquired mutex
+PREMEPT____(18)
+PREMEPT____(29)
+Thread 17 running
+Thread 17 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(18)
+PREMEPT____(29)
+m_lock: waiting done(30)
+Thread 29 acquired mutex
+PREMEPT____(30)
+PREMEPT____(18)
+Thread 28 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (29)
+m_lock: AF testing if FLAG(1) is locked (29)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(29)
+Thread 29 running
+Thread 29 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(30)
+Thread 17 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (18)
+m_lock: waiting done(18)
+Thread 17 acquired mutex
+PREMEPT____(18)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+PREMEPT____(30)
+PREMEPT____(18)
+Thread 29 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (30)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+Thread 17 running
+Thread 17 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 17 exiting
+m_lock: waiting done(11)
+Thread 10 acquired mutex
+PREMEPT____(11)
+Thread 10 running
+Thread 10 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(11)
+m_lock: waiting done(8)
+Thread 7 acquired mutex
+PREMEPT____(8)
+PREMEPT____(11)
+Thread 7 running
+Thread 7 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(8)
+Thread 10 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (11)
+m_lock: waiting done(11)
+Thread 10 acquired mutex
+PREMEPT____(11)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(8)
+PREMEPT____(11)
+Thread 7 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (8)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+Thread 10 running
+Thread 10 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(11)
+m_lock: waiting done(14)
+Thread 13 acquired mutex
+PREMEPT____(14)
+PREMEPT____(11)
+Thread 13 running
+Thread 13 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(14)
+PREMEPT____(11)
+m_lock: waiting done(16)
+Thread 15 acquired mutex
+PREMEPT____(16)
+PREMEPT____(14)
+Thread 10 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (11)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+Thread 15 running
+Thread 15 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(16)
+Thread 13 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (14)
+m_lock: waiting done(14)
+Thread 13 acquired mutex
+PREMEPT____(14)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+PREMEPT____(16)
+PREMEPT____(14)
+Thread 15 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (16)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+Thread 13 running
+Thread 13 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(14)
+m_lock: waiting done(20)
+Thread 19 acquired mutex
+PREMEPT____(20)
+PREMEPT____(14)
+Thread 19 running
+Thread 19 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(20)
+PREMEPT____(14)
+m_lock: waiting done(15)
+Thread 14 acquired mutex
+PREMEPT____(15)
+PREMEPT____(20)
+Thread 13 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (14)
+m_lock: AF testing if FLAG(1) is locked (14)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(14)
+Thread 14 running
+Thread 14 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(15)
+Thread 19 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (20)
+m_lock: waiting done(20)
+Thread 19 acquired mutex
+PREMEPT____(20)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+PREMEPT____(15)
+PREMEPT____(20)
+Thread 14 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (15)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+Thread 19 running
+Thread 19 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(20)
+m_lock: waiting done(25)
+Thread 24 acquired mutex
+PREMEPT____(25)
+PREMEPT____(20)
+Thread 24 running
+Thread 24 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(25)
+Thread 19 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (20)
+m_lock: waiting done(20)
+Thread 19 acquired mutex
+PREMEPT____(20)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+PREMEPT____(25)
+PREMEPT____(20)
+Thread 24 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (25)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+Thread 19 running
+Thread 19 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(20)
+m_lock: waiting done(24)
+Thread 23 acquired mutex
+PREMEPT____(24)
+PREMEPT____(20)
+Thread 23 running
+Thread 23 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(24)
+Thread 19 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (20)
+m_lock: waiting done(20)
+Thread 19 acquired mutex
+PREMEPT____(20)
+m_lock: AF testing if FLAG(1) is locked (6)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(6)
+PREMEPT____(24)
+PREMEPT____(20)
+Thread 23 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (24)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+Thread 19 running
+Thread 19 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(20)
+m_lock: waiting done(4)
+Thread 3 acquired mutex
+PREMEPT____(4)
+PREMEPT____(20)
+Thread 3 running
+Thread 3 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(4)
+Thread 19 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (20)
+m_lock: waiting done(20)
+Thread 19 acquired mutex
+PREMEPT____(20)
+m_lock: AF testing if FLAG(1) is locked (29)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(29)
+PREMEPT____(4)
+Thread 19 running
+Thread 19 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(20)
+Thread 3 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (4)
+m_lock: waiting done(4)
+Thread 3 acquired mutex
+PREMEPT____(4)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+PREMEPT____(20)
+PREMEPT____(4)
+PREMEPT____(20)
+Thread 3 running
+Thread 3 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(4)
+Thread 19 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (20)
+m_lock: waiting done(20)
+Thread 19 acquired mutex
+PREMEPT____(20)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+PREMEPT____(4)
+Thread 19 running
+Thread 19 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(20)
+Thread 3 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (4)
+m_lock: waiting done(4)
+Thread 3 acquired mutex
+PREMEPT____(4)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(20)
+PREMEPT____(4)
+PREMEPT____(20)
+Thread 3 running
+Thread 3 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(4)
+Thread 19 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (20)
+m_lock: waiting done(20)
+Thread 19 acquired mutex
+PREMEPT____(20)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(4)
+Thread 19 running
+Thread 19 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(20)
+Thread 3 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (4)
+m_lock: waiting done(4)
+Thread 3 acquired mutex
+PREMEPT____(4)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(20)
+Thread 3 running
+Thread 3 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(4)
+Thread 19 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (20)
+m_lock: waiting done(20)
+Thread 19 acquired mutex
+PREMEPT____(20)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+PREMEPT____(4)
+PREMEPT____(20)
+PREMEPT____(4)
+Thread 19 running
+Thread 19 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 19 exiting
+Thread 3 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (4)
+m_lock: waiting done(4)
+Thread 3 acquired mutex
+PREMEPT____(4)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+Thread 3 running
+Thread 3 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(4)
+m_lock: waiting done(14)
+Thread 13 acquired mutex
+PREMEPT____(14)
+PREMEPT____(4)
+Thread 13 running
+Thread 13 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(14)
+PREMEPT____(4)
+m_lock: waiting done(22)
+Thread 21 acquired mutex
+PREMEPT____(22)
+PREMEPT____(14)
+Thread 3 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (4)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+Thread 21 running
+Thread 21 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(22)
+Thread 13 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (14)
+m_lock: waiting done(14)
+Thread 13 acquired mutex
+PREMEPT____(14)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+PREMEPT____(22)
+PREMEPT____(14)
+Thread 21 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (22)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+Thread 13 running
+Thread 13 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(14)
+m_lock: waiting done(17)
+Thread 16 acquired mutex
+PREMEPT____(17)
+PREMEPT____(14)
+Thread 16 running
+Thread 16 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(17)
+Thread 13 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (14)
+m_lock: waiting done(14)
+Thread 13 acquired mutex
+PREMEPT____(14)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(17)
+PREMEPT____(14)
+Thread 16 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (17)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+Thread 13 running
+Thread 13 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(14)
+m_lock: waiting done(6)
+Thread 5 acquired mutex
+PREMEPT____(6)
+PREMEPT____(14)
+Thread 5 running
+Thread 5 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(6)
+Thread 13 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (14)
+m_lock: waiting done(14)
+Thread 13 acquired mutex
+PREMEPT____(14)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+PREMEPT____(6)
+Thread 13 running
+Thread 13 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(14)
+Thread 5 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (6)
+m_lock: waiting done(6)
+Thread 5 acquired mutex
+PREMEPT____(6)
+m_lock: AF testing if FLAG(1) is locked (29)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(29)
+PREMEPT____(14)
+PREMEPT____(6)
+PREMEPT____(14)
+Thread 5 running
+Thread 5 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(6)
+Thread 13 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (14)
+m_lock: waiting done(14)
+Thread 13 acquired mutex
+PREMEPT____(14)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+PREMEPT____(6)
+Thread 13 running
+Thread 13 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(14)
+Thread 5 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (6)
+m_lock: waiting done(6)
+Thread 5 acquired mutex
+PREMEPT____(6)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+PREMEPT____(14)
+PREMEPT____(6)
+PREMEPT____(14)
+Thread 5 running
+Thread 5 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(6)
+Thread 13 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (14)
+m_lock: waiting done(14)
+Thread 13 acquired mutex
+PREMEPT____(14)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(6)
+Thread 13 running
+Thread 13 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 13 exiting
+Thread 5 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (6)
+m_lock: waiting done(6)
+Thread 5 acquired mutex
+PREMEPT____(6)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(6)
+Thread 5 running
+Thread 5 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(6)
+m_lock: waiting done(11)
+Thread 10 acquired mutex
+PREMEPT____(11)
+PREMEPT____(6)
+Thread 10 running
+Thread 10 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(11)
+Thread 5 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (6)
+m_lock: waiting done(6)
+Thread 5 acquired mutex
+PREMEPT____(6)
+m_lock: AF testing if FLAG(1) is locked (21)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(21)
+PREMEPT____(11)
+PREMEPT____(6)
+Thread 10 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (11)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+Thread 5 running
+Thread 5 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(6)
+m_lock: waiting done(16)
+Thread 15 acquired mutex
+PREMEPT____(16)
+PREMEPT____(6)
+Thread 15 running
+Thread 15 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(16)
+Thread 5 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (6)
+m_lock: waiting done(6)
+Thread 5 acquired mutex
+PREMEPT____(6)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+PREMEPT____(16)
+Thread 5 running
+Thread 5 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(6)
+Thread 15 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (16)
+m_lock: waiting done(16)
+Thread 15 acquired mutex
+PREMEPT____(16)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+PREMEPT____(6)
+PREMEPT____(16)
+PREMEPT____(6)
+Thread 15 running
+Thread 15 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(16)
+Thread 5 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (6)
+m_lock: waiting done(6)
+Thread 5 acquired mutex
+PREMEPT____(6)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+PREMEPT____(16)
+Thread 5 running
+Thread 5 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(6)
+Thread 15 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (16)
+m_lock: waiting done(16)
+Thread 15 acquired mutex
+PREMEPT____(16)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(6)
+PREMEPT____(16)
+PREMEPT____(6)
+Thread 15 running
+Thread 15 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(16)
+Thread 5 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (6)
+m_lock: waiting done(6)
+Thread 5 acquired mutex
+PREMEPT____(6)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+PREMEPT____(16)
+Thread 5 running
+Thread 5 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 5 exiting
+Thread 15 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (16)
+m_lock: waiting done(16)
+Thread 15 acquired mutex
+PREMEPT____(16)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+PREMEPT____(16)
+Thread 15 running
+Thread 15 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(16)
+m_lock: waiting done(29)
+Thread 28 acquired mutex
+PREMEPT____(29)
+PREMEPT____(16)
+Thread 28 running
+Thread 28 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(29)
+Thread 15 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (16)
+m_lock: waiting done(16)
+Thread 15 acquired mutex
+PREMEPT____(16)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+PREMEPT____(29)
+Thread 15 running
+Thread 15 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(16)
+Thread 28 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (29)
+m_lock: waiting done(29)
+Thread 28 acquired mutex
+PREMEPT____(29)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+PREMEPT____(16)
+PREMEPT____(29)
+PREMEPT____(16)
+Thread 28 running
+Thread 28 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(29)
+Thread 15 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (16)
+m_lock: waiting done(16)
+Thread 15 acquired mutex
+PREMEPT____(16)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(29)
+Thread 15 running
+Thread 15 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(16)
+Thread 28 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (29)
+m_lock: waiting done(29)
+Thread 28 acquired mutex
+PREMEPT____(29)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(16)
+PREMEPT____(29)
+Thread 15 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (16)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+Thread 28 running
+Thread 28 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(29)
+m_lock: waiting done(21)
+Thread 20 acquired mutex
+PREMEPT____(21)
+PREMEPT____(29)
+Thread 20 running
+Thread 20 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(21)
+Thread 28 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (29)
+m_lock: waiting done(29)
+Thread 28 acquired mutex
+PREMEPT____(29)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(21)
+Thread 28 running
+Thread 28 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(29)
+Thread 20 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (21)
+m_lock: waiting done(21)
+Thread 20 acquired mutex
+PREMEPT____(21)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+PREMEPT____(29)
+PREMEPT____(21)
+PREMEPT____(29)
+Thread 20 running
+Thread 20 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(21)
+Thread 28 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (29)
+m_lock: waiting done(29)
+Thread 28 acquired mutex
+PREMEPT____(29)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+PREMEPT____(21)
+Thread 28 running
+Thread 28 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(29)
+Thread 20 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (21)
+m_lock: waiting done(21)
+Thread 20 acquired mutex
+PREMEPT____(21)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+PREMEPT____(29)
+PREMEPT____(21)
+PREMEPT____(29)
+Thread 20 running
+Thread 20 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(21)
+Thread 28 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (29)
+m_lock: waiting done(29)
+Thread 28 acquired mutex
+PREMEPT____(29)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(21)
+Thread 28 running
+Thread 28 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 28 exiting
+Thread 20 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (21)
+m_lock: waiting done(21)
+Thread 20 acquired mutex
+PREMEPT____(21)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+PREMEPT____(21)
+Thread 20 running
+Thread 20 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(21)
+m_lock: waiting done(24)
+Thread 23 acquired mutex
+PREMEPT____(24)
+PREMEPT____(21)
+Thread 23 running
+Thread 23 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(24)
+Thread 20 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (21)
+m_lock: waiting done(21)
+Thread 20 acquired mutex
+PREMEPT____(21)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+PREMEPT____(24)
+Thread 20 running
+Thread 20 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(21)
+Thread 23 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (24)
+m_lock: waiting done(24)
+Thread 23 acquired mutex
+PREMEPT____(24)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+PREMEPT____(21)
+PREMEPT____(24)
+PREMEPT____(21)
+Thread 23 running
+Thread 23 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(24)
+Thread 20 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (21)
+m_lock: waiting done(21)
+Thread 20 acquired mutex
+PREMEPT____(21)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(24)
+Thread 20 running
+Thread 20 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(21)
+Thread 23 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (24)
+m_lock: waiting done(24)
+Thread 23 acquired mutex
+PREMEPT____(24)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(21)
+Thread 23 running
+Thread 23 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(24)
+Thread 20 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (21)
+m_lock: waiting done(21)
+Thread 20 acquired mutex
+PREMEPT____(21)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+PREMEPT____(24)
+PREMEPT____(21)
+PREMEPT____(24)
+Thread 20 running
+Thread 20 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(21)
+Thread 23 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (24)
+m_lock: waiting done(24)
+Thread 23 acquired mutex
+PREMEPT____(24)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(21)
+Thread 23 running
+Thread 23 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(24)
+Thread 20 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (21)
+m_lock: waiting done(21)
+Thread 20 acquired mutex
+PREMEPT____(21)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+PREMEPT____(24)
+PREMEPT____(21)
+Thread 23 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (24)
+m_lock: AF testing if FLAG(1) is locked (24)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(24)
+Thread 20 running
+Thread 20 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(21)
+m_lock: waiting done(15)
+Thread 14 acquired mutex
+PREMEPT____(15)
+PREMEPT____(21)
+Thread 14 running
+Thread 14 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(15)
+Thread 20 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (21)
+m_lock: waiting done(21)
+Thread 20 acquired mutex
+PREMEPT____(21)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+PREMEPT____(15)
+PREMEPT____(21)
+Thread 14 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (15)
+m_lock: AF testing if FLAG(1) is locked (15)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(15)
+Thread 20 running
+Thread 20 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 20 exiting
+m_lock: waiting done(25)
+Thread 24 acquired mutex
+PREMEPT____(25)
+Thread 24 running
+Thread 24 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(25)
+m_lock: waiting done(17)
+Thread 16 acquired mutex
+PREMEPT____(17)
+PREMEPT____(25)
+Thread 16 running
+Thread 16 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(17)
+Thread 24 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (25)
+m_lock: waiting done(25)
+Thread 24 acquired mutex
+PREMEPT____(25)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+PREMEPT____(17)
+PREMEPT____(25)
+Thread 16 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (17)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+Thread 24 running
+Thread 24 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(25)
+m_lock: waiting done(30)
+Thread 29 acquired mutex
+PREMEPT____(30)
+PREMEPT____(25)
+Thread 29 running
+Thread 29 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(30)
+Thread 24 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (25)
+m_lock: waiting done(25)
+Thread 24 acquired mutex
+PREMEPT____(25)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(30)
+PREMEPT____(25)
+Thread 29 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (30)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+Thread 24 running
+Thread 24 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(25)
+m_lock: waiting done(8)
+Thread 7 acquired mutex
+PREMEPT____(8)
+PREMEPT____(25)
+Thread 7 running
+Thread 7 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(8)
+Thread 24 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (25)
+m_lock: waiting done(25)
+Thread 24 acquired mutex
+PREMEPT____(25)
+m_lock: AF testing if FLAG(1) is locked (16)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(16)
+PREMEPT____(8)
+PREMEPT____(25)
+Thread 7 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (8)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+Thread 24 running
+Thread 24 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(25)
+m_lock: waiting done(11)
+Thread 10 acquired mutex
+PREMEPT____(11)
+PREMEPT____(25)
+Thread 10 running
+Thread 10 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(11)
+Thread 24 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (25)
+m_lock: waiting done(25)
+Thread 24 acquired mutex
+PREMEPT____(25)
+m_lock: AF testing if FLAG(1) is locked (4)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(4)
+PREMEPT____(11)
+PREMEPT____(25)
+Thread 10 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (11)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+Thread 24 running
+Thread 24 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(25)
+m_lock: waiting done(24)
+Thread 23 acquired mutex
+PREMEPT____(24)
+PREMEPT____(25)
+Thread 23 running
+Thread 23 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 23 exiting
+PREMEPT____(25)
+m_lock: waiting done(22)
+Thread 21 acquired mutex
+PREMEPT____(22)
+Thread 24 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (25)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+Thread 21 running
+Thread 21 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(22)
+m_lock: waiting done(15)
+Thread 14 acquired mutex
+PREMEPT____(15)
+PREMEPT____(22)
+Thread 14 running
+Thread 14 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(15)
+PREMEPT____(22)
+m_lock: waiting done(3)
+Thread 2 acquired mutex
+PREMEPT____(3)
+PREMEPT____(15)
+Thread 21 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (22)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+Thread 2 running
+Thread 2 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(3)
+Thread 14 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (15)
+m_lock: waiting done(15)
+Thread 14 acquired mutex
+PREMEPT____(15)
+m_lock: AF testing if FLAG(1) is locked (17)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(17)
+PREMEPT____(3)
+PREMEPT____(15)
+Thread 2 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (3)
+m_lock: AF testing if FLAG(1) is locked (3)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(3)
+Thread 14 running
+Thread 14 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(15)
+m_lock: waiting done(13)
+Thread 12 acquired mutex
+PREMEPT____(13)
+PREMEPT____(15)
+Thread 12 running
+Thread 12 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(13)
+Thread 14 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (15)
+m_lock: waiting done(15)
+Thread 14 acquired mutex
+PREMEPT____(15)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+PREMEPT____(13)
+PREMEPT____(15)
+Thread 12 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (13)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+Thread 14 running
+Thread 14 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 14 exiting
+m_lock: waiting done(16)
+Thread 15 acquired mutex
+PREMEPT____(16)
+Thread 15 running
+Thread 15 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 15 exiting
+m_lock: waiting done(8)
+Thread 7 acquired mutex
+PREMEPT____(8)
+Thread 7 running
+Thread 7 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(8)
+m_lock: waiting done(4)
+Thread 3 acquired mutex
+PREMEPT____(4)
+PREMEPT____(8)
+Thread 3 running
+Thread 3 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(4)
+PREMEPT____(8)
+m_lock: waiting done(11)
+Thread 10 acquired mutex
+PREMEPT____(11)
+PREMEPT____(4)
+Thread 7 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (8)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+Thread 10 running
+Thread 10 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(11)
+Thread 3 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (4)
+m_lock: waiting done(4)
+Thread 3 acquired mutex
+PREMEPT____(4)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(11)
+PREMEPT____(4)
+Thread 10 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (11)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+Thread 3 running
+Thread 3 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 3 exiting
+m_lock: waiting done(22)
+Thread 21 acquired mutex
+PREMEPT____(22)
+Thread 21 running
+Thread 21 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(22)
+m_lock: waiting done(17)
+Thread 16 acquired mutex
+PREMEPT____(17)
+PREMEPT____(22)
+Thread 16 running
+Thread 16 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 16 exiting
+PREMEPT____(22)
+m_lock: waiting done(3)
+Thread 2 acquired mutex
+PREMEPT____(3)
+Thread 21 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (22)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+Thread 2 running
+Thread 2 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(3)
+m_lock: waiting done(30)
+Thread 29 acquired mutex
+PREMEPT____(30)
+PREMEPT____(3)
+Thread 29 running
+Thread 29 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(30)
+Thread 2 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (3)
+m_lock: waiting done(3)
+Thread 2 acquired mutex
+PREMEPT____(3)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+PREMEPT____(30)
+PREMEPT____(3)
+Thread 29 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (30)
+m_lock: AF testing if FLAG(1) is locked (30)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(30)
+Thread 2 running
+Thread 2 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(3)
+m_lock: waiting done(8)
+Thread 7 acquired mutex
+PREMEPT____(8)
+PREMEPT____(3)
+Thread 7 running
+Thread 7 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(8)
+Thread 2 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (3)
+m_lock: waiting done(3)
+Thread 2 acquired mutex
+PREMEPT____(3)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(8)
+PREMEPT____(3)
+Thread 7 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (8)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+Thread 2 running
+Thread 2 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(3)
+m_lock: waiting done(11)
+Thread 10 acquired mutex
+PREMEPT____(11)
+PREMEPT____(3)
+Thread 10 running
+Thread 10 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(11)
+Thread 2 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (3)
+m_lock: waiting done(3)
+Thread 2 acquired mutex
+PREMEPT____(3)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+PREMEPT____(11)
+PREMEPT____(3)
+Thread 10 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (11)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+Thread 2 running
+Thread 2 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 2 exiting
+m_lock: waiting done(13)
+Thread 12 acquired mutex
+PREMEPT____(13)
+Main thread waiting on thread 3
+Main thread waiting on thread 4
+Main thread waiting on thread 5
+Main thread waiting on thread 6
+Main thread waiting on thread 7
+Thread 12 running
+Thread 12 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(13)
+m_lock: waiting done(30)
+Thread 29 acquired mutex
+PREMEPT____(30)
+PREMEPT____(13)
+Thread 29 running
+Thread 29 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(30)
+PREMEPT____(13)
+m_lock: waiting done(25)
+Thread 24 acquired mutex
+PREMEPT____(25)
+PREMEPT____(30)
+Thread 12 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (13)
+m_lock: AF testing if FLAG(1) is locked (13)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(13)
+Thread 24 running
+Thread 24 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(25)
+Thread 29 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (30)
+m_lock: waiting done(30)
+Thread 29 acquired mutex
+PREMEPT____(30)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(25)
+PREMEPT____(30)
+Thread 24 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (25)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+Thread 29 running
+Thread 29 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(30)
+m_lock: waiting done(22)
+Thread 21 acquired mutex
+PREMEPT____(22)
+PREMEPT____(30)
+Thread 21 running
+Thread 21 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(22)
+Thread 29 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (30)
+m_lock: waiting done(30)
+Thread 29 acquired mutex
+PREMEPT____(30)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(22)
+PREMEPT____(30)
+Thread 21 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (22)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+Thread 29 running
+Thread 29 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 29 exiting
+m_lock: waiting done(13)
+Thread 12 acquired mutex
+PREMEPT____(13)
+Thread 12 running
+Thread 12 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(13)
+m_lock: waiting done(8)
+Thread 7 acquired mutex
+PREMEPT____(8)
+PREMEPT____(13)
+Thread 7 running
+Thread 7 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(8)
+Thread 12 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (13)
+m_lock: waiting done(13)
+Thread 12 acquired mutex
+PREMEPT____(13)
+m_lock: AF testing if FLAG(1) is locked (25)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(25)
+PREMEPT____(8)
+PREMEPT____(13)
+Thread 7 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (8)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+Thread 12 running
+Thread 12 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(13)
+m_lock: waiting done(11)
+Thread 10 acquired mutex
+PREMEPT____(11)
+PREMEPT____(13)
+Thread 10 running
+Thread 10 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(11)
+Thread 12 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (13)
+m_lock: waiting done(13)
+Thread 12 acquired mutex
+PREMEPT____(13)
+m_lock: AF testing if FLAG(1) is locked (22)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(22)
+PREMEPT____(11)
+PREMEPT____(13)
+Thread 10 trying to lock mutex
+m_lock: B4 testing if FLAG(1) is locked (11)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+Thread 12 running
+Thread 12 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(13)
+m_lock: waiting done(25)
+Thread 24 acquired mutex
+PREMEPT____(25)
+PREMEPT____(13)
+Thread 24 running
+Thread 24 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 24 exiting
+Thread 12 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (13)
+m_lock: waiting done(13)
+Thread 12 acquired mutex
+PREMEPT____(13)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(13)
+Thread 12 running
+Thread 12 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(13)
+m_lock: waiting done(22)
+Thread 21 acquired mutex
+PREMEPT____(22)
+PREMEPT____(13)
+Thread 21 running
+Thread 21 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(22)
+Thread 12 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (13)
+m_lock: waiting done(13)
+Thread 12 acquired mutex
+PREMEPT____(13)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(22)
+Thread 12 running
+Thread 12 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(13)
+Thread 21 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (22)
+m_lock: waiting done(22)
+Thread 21 acquired mutex
+PREMEPT____(22)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(13)
+PREMEPT____(22)
+PREMEPT____(13)
+Thread 21 running
+Thread 21 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+PREMEPT____(22)
+Thread 12 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (13)
+m_lock: waiting done(13)
+Thread 12 acquired mutex
+PREMEPT____(13)
+m_lock: AF testing if FLAG(1) is locked (11)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(11)
+PREMEPT____(22)
+Thread 12 running
+Thread 12 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 12 exiting
+Thread 21 trying to lock mutex
+m_lock: B4 testing if FLAG(0) is locked (22)
+m_lock: waiting done(22)
+Thread 21 acquired mutex
+PREMEPT____(22)
+m_lock: AF testing if FLAG(1) is locked (8)
+m_lock: waiting on lock, swap context to sch_ctx FROM id(8)
+PREMEPT____(22)
+Thread 21 running
+Thread 21 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 21 exiting
+m_lock: waiting done(11)
+Thread 10 acquired mutex
+PREMEPT____(11)
+Thread 10 running
+Thread 10 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 10 exiting
+m_lock: waiting done(8)
+Thread 7 acquired mutex
+PREMEPT____(8)
+Thread 7 running
+Thread 7 unlocking mutex
+unlock: LOCK B4 CLEAR: (1)
+unlock: LOCK AF CLEAR: (0)
+Thread 7 exiting
+Main thread waiting on thread 8
+Main thread waiting on thread 9
+Main thread waiting on thread 10
+Main thread waiting on thread 11
+Main thread waiting on thread 12
+Main thread waiting on thread 13
+Main thread waiting on thread 14
+Main thread waiting on thread 15
+Main thread waiting on thread 16
+Main thread waiting on thread 17
+Main thread waiting on thread 18
+Main thread waiting on thread 19
+Main thread waiting on thread 20
+Main thread waiting on thread 21
+Main thread waiting on thread 22
+Main thread waiting on thread 23
+Main thread waiting on thread 24
+Main thread waiting on thread 25
+Main thread waiting on thread 26
+Main thread waiting on thread 27
+Main thread waiting on thread 28
+Main thread waiting on thread 29
+Main thread resume
+shared variable value: 290
+expected value: 290
+Main thread exit

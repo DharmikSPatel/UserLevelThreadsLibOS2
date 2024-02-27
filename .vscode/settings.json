@@ -4,6 +4,11 @@
         "thread_worker_types.h": "c",
         "queue.h": "c",
         "stdlib.h": "c",
-        "pthread.h": "c"
+        "pthread.h": "c",
+        "string.h": "c",
+        "syscall.h": "c",
+        "stdatomic.h": "c",
+        "stdint.h": "c",
+        "builtins.h": "c"
     }
 }

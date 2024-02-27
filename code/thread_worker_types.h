@@ -19,8 +19,7 @@ typedef struct TCB
     ucontext_t thread_context;  // Context needed for running the thread on a CPU
     // void* thread_stack;         // Stack for the thread
     // int thread_priority;        // Priority of the thread (for MLFQ)
-    struct TCB* next;           //next ptr
-    struct Queue* tcbs_waiting;  //list of all tcbs waiting for this tcb to terminate
+    struct TCB* tcb_waiting;  //the tcb that is waiting to join this
     void* rtr_val;
     // Add more fields as needed...
 

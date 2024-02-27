@@ -2,13 +2,15 @@
 #define MTX_TYPES_H
 
 #include "thread_worker_types.h"
+#include "queue.h"
+#include <stdatomic.h>
 
 /* mutex struct definition */
 typedef struct worker_mutex_t
 {
-    /* add something here */
+    atomic_flag __lock;
+    Queue* blocked_threads;
 
-    // YOUR CODE HERE
 } worker_mutex_t;
 
 #endif

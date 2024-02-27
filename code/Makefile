@@ -1,6 +1,7 @@
 CC = gcc
 #CHANGE: remove all flags except -g -c
-CFLAGS = -g -c -std=c99 -Wvla -Wall -fsanitize=address,undefined
+#-std=c99 -Wvla -Wall -fsanitize=address,undefined
+CFLAGS = -g -c 
 AR = ar -rc
 RANLIB = ranlib
 

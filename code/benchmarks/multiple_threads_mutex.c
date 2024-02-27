@@ -20,7 +20,7 @@ void dummy_work(void *arg)
 		for (j = 0; j < 30000000; j++)
 		{
 		}
-
+		
 		printf("Thread %d trying to lock mutex\n", n);
 		worker_mutex_lock(&mutex);
 		printf("Thread %d acquired mutex\n", n);

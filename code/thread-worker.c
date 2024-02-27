@@ -83,7 +83,9 @@ static void sched_rr()
             running->tcb_waiting->thread_status = READY;
             enqueue(ready_q, running->tcb_waiting); 
         } else {
-            // free
+            tcb* data = removeTCB(all_nodes_q, running);
+            free(data->thread_context.uc_stack.ss_sp);
+            free(data);
         }
 
 
@@ -260,10 +262,7 @@ int worker_join(worker_t thread, void **value_ptr)
     while(found != NULL && found->data->thread_id != thread){
         found = found->next;
     }
-    if(found == NULL){
-        error("thread_id not found in worker_join");
-    }
-    if(found->data->thread_status == DONE){
+    if(found == NULL || found->data->thread_status == DONE){
         if (MY_DEBUG) printf("join: tcb already joined\n");
         running->thread_status = RUNNING;
         if(value_ptr != NULL){
@@ -322,7 +321,7 @@ int worker_mutex_init(worker_mutex_t *mutex,
 int worker_mutex_lock(worker_mutex_t *mutex)
 {
     while(atomic_flag_test_and_set(&(mutex->__lock))){
-        //do not have lock
+        //mutex is currently locked
         running->thread_status = BLOCKED;
         enqueue(mutex->blocked_threads, running);
         if (MY_DEBUG) printf("m_lock: waiting on lock, swap context to sch_ctx FROM id(%d)\n", running->thread_id);
@@ -363,15 +362,16 @@ int worker_mutex_unlock(worker_mutex_t *mutex)
 /* destroy the mutex */
 int worker_mutex_destroy(worker_mutex_t *mutex)
 {
-    // TODO: make sure mutex is not being used
+    // make sure no threads are wating on mutex
     // - de-allocate dynamic memory created in worker_mutex_init
-
-    if(mutex->blocked_threads->head == NULL){
-        free(mutex->blocked_threads);
-        // free(mutex);
+    if(mutex->blocked_threads->head != NULL){
+        if (MY_DEBUG) printf("PPL WAITING CANT DESI\n");
+        return -1;
     }
-
-    return 0;
+    else {
+        free(mutex->blocked_threads);
+        return 0;
+    }
 };
 
 

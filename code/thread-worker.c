@@ -12,7 +12,6 @@ Dhruv Chaudhry
 #include "thread-worker.h"
 #include "thread_worker_types.h"
 
-//CHANGE: back to SIGSTKSZ 
 // #define STACK_SIZE sysconf (_SC_SIGSTKSZ)
 #define STACK_SIZE SIGSTKSZ //default stack size
 #define QUANTUM 10 * 1000 //10 milliseconds (time that it runs)

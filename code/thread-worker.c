@@ -1,17 +1,20 @@
 // File:	thread-worker.c
 
-// List all group member's name:
-/*
- */
-// username of iLab:
-// iLab Server:
+//
+/* 
+Dharmik Patel
+Dhruv Chaudhry
+ */ 
+// username of iLab: dsp187
+// iLab Server: ice.cs.rutgers.edu
 
 #include "queue.h"
 #include "thread-worker.h"
 #include "thread_worker_types.h"
 
 //CHANGE: back to SIGSTKSZ 
-#define STACK_SIZE sysconf (_SC_SIGSTKSZ)
+// #define STACK_SIZE sysconf (_SC_SIGSTKSZ)
+#define STACK_SIZE SIGSTKSZ //default stack size
 #define QUANTUM 10 * 1000 //10 milliseconds (time that it runs)
 #define MY_DEBUG 0
 //misc data structs
@@ -37,33 +40,19 @@ static void sched_mlfq();
 static void schedule()
 {
     if (MY_DEBUG) printf("IN SCEDUALE FUNC-----\n");
-// - every time a timer interrupt occurs, your worker thread library
-// should be contexted switched from a thread context to this
-// schedule() function
-
-// - invoke scheduling algorithms according to the policy (RR or MLFQ)
-
-// - schedule policy
 #ifndef MLFQ
     // Choose RR
     sched_rr();
 #else
     // Choose MLFQ
-    
 #endif
 }
 
-static void sched_rr()
-{
+static void sched_rr(){
     pause_timer();
     int status = running->thread_status;
     if (status == READY){
         if (MY_DEBUG) printf("Ready in Secd b4 (%d)\n", running->thread_id);
-        // tcb* old_running = running;
-        // if((running = dequeue(ready_q)) == NULL){
-        //     error("can not dequeue");
-        // }
-        // enqueue(ready_q, old_running);
         enqueue(ready_q, running);
         if((running = dequeue(ready_q)) == NULL){
             error("can not dequeue");
@@ -87,8 +76,6 @@ static void sched_rr()
             free(data->thread_context.uc_stack.ss_sp);
             free(data);
         }
-
-
         if((running = dequeue(ready_q)) == NULL){
             error("can not dequeue");
         }
@@ -101,7 +88,6 @@ static void sched_rr()
     running->thread_status = RUNNING;
 
     if (MY_DEBUG) printf("made it rhouhg\n");
-    //makecontext(&sch_ctx, (void*)&schedule, 0);
     if (MY_DEBUG) printf("about to switch out of scd_ctx TO id(%d)\n", running->thread_id);
     start_timer();
     if(setcontext(&(running->thread_context)) < 0){
@@ -197,12 +183,9 @@ int worker_create(worker_t *thread, pthread_attr_t *attr,
 {
     if (MY_DEBUG) printf("Worker Create started\n");
     if(init_scheduler_done == 0){
-        //allocate mem for ready_q
         ready_q = init_queue();
         all_nodes_q = init_queue();
-        // Create main context
         set_up_run_main_tcb();
-        // Create scheduler context and timer
         set_up_scheduler_context();
     }
     //create a tcb here 
@@ -373,8 +356,3 @@ int worker_mutex_destroy(worker_mutex_t *mutex)
         return 0;
     }
 };
-
-
-// Feel free to add any other functions you need.
-// You can also create separate files for helper functions, structures, etc.
-// But make sure that the Makefile is updated to account for the same.

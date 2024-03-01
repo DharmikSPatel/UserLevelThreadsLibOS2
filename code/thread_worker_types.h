@@ -14,17 +14,10 @@ typedef unsigned int worker_t;
 
 typedef struct TCB
 {
-    worker_t thread_id;         // Unique ID to identify each worker thread //correct
-    int thread_status;          // Status of the thread (RUNNING, READY, BLOCKED) //correct and implemented
+    worker_t thread_id;         // Unique ID to identify each worker thread
+    int thread_status;          // Status of the thread (RUNNING, READY, BLOCKED, DONE) 
     ucontext_t thread_context;  // Context needed for running the thread on a CPU
-    // void* thread_stack;         // Stack for the thread
-    // int thread_priority;        // Priority of the thread (for MLFQ)
-    struct TCB* tcb_waiting;  //the tcb that is waiting to join this
-    void* rtr_val;
-    // Add more fields as needed...
-
-    // YOUR CODE HERE
-
-} tcb;
-
+    struct TCB* tcb_waiting;    // The tcb that is waiting to join this
+    void* rtr_val;              // A ptr to the return value of this thread is stored here once this thread's function exits.
+}tcb;
 #endif

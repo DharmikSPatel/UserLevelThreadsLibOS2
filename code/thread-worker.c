@@ -145,9 +145,8 @@ void set_up_timer(){
 	memset (&sa, 0, sizeof (sa));
 	sa.sa_handler = &premptThread;
 	sigaction (SIGPROF, &sa, NULL);
-    timer.it_interval.tv_usec = QUANTUM; 
+    timer.it_interval.tv_usec = 0; 
 	timer.it_interval.tv_sec = 0;
-    start_timer();
 }
 
 void set_up_scheduler_context(){
@@ -170,6 +169,7 @@ void set_up_run_main_tcb(){
         error("");
     }
     make_set_stack(&(running->thread_context));
+    enqueue(all_nodes_q, running); 
     // if(setcontext(&(running->thread_context)) < 0){
     //     error("");
     // }
@@ -186,6 +186,8 @@ int worker_create(worker_t *thread, pthread_attr_t *attr,
         all_nodes_q = init_queue();
         set_up_run_main_tcb();
         set_up_scheduler_context();
+        set_up_timer();
+        init_scheduler_done = 1;
     }
     //create a tcb here 
     tcb *new_thread = (tcb *)malloc(sizeof(tcb));
@@ -200,10 +202,11 @@ int worker_create(worker_t *thread, pthread_attr_t *attr,
     enqueue(all_nodes_q, new_thread); //just need to do once
     *thread = new_thread->thread_id;
     if (MY_DEBUG) printf("Done Creatig new thread id(%d)\n", new_thread->thread_id);
-    if(init_scheduler_done == 0){
-        // start timer after the first tcb has been created and pushed
-        set_up_timer();
-        init_scheduler_done = 1;
+
+    //call schedular. rn the running thread is the main thread
+    running->thread_status = READY;
+    if(swapcontext(&(running->thread_context), &sch_ctx) < 0) {
+        error("swap to sch_ctx failed");
     }
     return 0;
 }
@@ -289,7 +292,13 @@ int worker_mutex_init(worker_mutex_t *mutex,
     //- initialize data structures for this mutex
     if (MY_DEBUG) printf("MUTEX INIT %p\n", mutex);
     // mutex = (worker_mutex_t*) malloc(sizeof(worker_mutex_t));
-    atomic_flag_clear(&(mutex->__lock));
+    mutex->__malloced = 0;
+    if(mutex == NULL){
+        mutex = (worker_mutex_t*) malloc(sizeof(worker_mutex_t));
+        mutex->__malloced = 1;
+    }
+        
+    mutex->__lock = UNLOCKED;
     mutex->blocked_threads = init_queue();
     if (MY_DEBUG) printf("MUTEX INIT %p\n", mutex);
     if (MY_DEBUG) printf("QUEUE INIT %p\n", mutex->blocked_threads);
@@ -302,7 +311,9 @@ int worker_mutex_init(worker_mutex_t *mutex,
 /* aquire the mutex lock */
 int worker_mutex_lock(worker_mutex_t *mutex)
 {
-    while(atomic_flag_test_and_set(&(mutex->__lock))){
+    if (MY_DEBUG) printf("Trying to lock mutex: %p (%d)\n", mutex, mutex->__lock);
+
+    while(__sync_lock_test_and_set(&(mutex->__lock), LOCKED) == LOCKED){
         //mutex is currently locked
         running->thread_status = BLOCKED;
         enqueue(mutex->blocked_threads, running);
@@ -323,7 +334,7 @@ int worker_mutex_lock(worker_mutex_t *mutex)
 /* release the mutex lock */
 int worker_mutex_unlock(worker_mutex_t *mutex)
 {
-    atomic_flag_clear(&(mutex->__lock));
+    
     tcb* next = dequeue(mutex->blocked_threads);
     if(next != NULL){
         if (MY_DEBUG) printf("LOCK REASLED, ADDING new guy\n");
@@ -333,7 +344,7 @@ int worker_mutex_unlock(worker_mutex_t *mutex)
     else{
         if (MY_DEBUG) printf("LOCK REASLED, NO ONE else wating\n");
     }
-
+    __sync_lock_release(&(mutex->__lock));
     // - release mutex and make it available again.
     // - put one or more threads in block list to run queue
     // so that they could compete for mutex later.
@@ -346,12 +357,22 @@ int worker_mutex_destroy(worker_mutex_t *mutex)
 {
     // make sure no threads are wating on mutex
     // - de-allocate dynamic memory created in worker_mutex_init
+    // int *p;
+    // __sync_lock_test_and_set(p, 1);
+    if(mutex->__lock == LOCKED){
+        if (MY_DEBUG) printf("LOCK IN USE CANT DESI\n");
+        return -1;  
+    }
     if(mutex->blocked_threads->head != NULL){
         if (MY_DEBUG) printf("PPL WAITING CANT DESI\n");
         return -1;
     }
     else {
+        if (MY_DEBUG) printf("Destryoed\n");
+
         free(mutex->blocked_threads);
+        if(mutex->__malloced)
+            free(mutex);
         return 0;
     }
 };

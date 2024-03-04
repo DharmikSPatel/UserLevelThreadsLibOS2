@@ -18,10 +18,7 @@
 #include <sys/time.h>
 #include <string.h>
 #include <signal.h>
-#include <stdatomic.h>
-// CHANGE: remove <pthread.h> after the CFLAGS have been removed from Makefile
 #include "mutex_types.h"
-#include <stdatomic.h>
 /* Function Declarations: */
 
 /* create a new thread */

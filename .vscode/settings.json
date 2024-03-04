@@ -9,6 +9,7 @@
         "syscall.h": "c",
         "stdatomic.h": "c",
         "stdint.h": "c",
-        "builtins.h": "c"
+        "builtins.h": "c",
+        "mutex_types.h": "c"
     }
 }

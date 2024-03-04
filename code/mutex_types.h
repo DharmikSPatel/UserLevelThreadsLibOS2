@@ -3,12 +3,14 @@
 
 #include "thread_worker_types.h"
 #include "queue.h"
-#include <stdatomic.h>
 
+#define UNLOCKED 0
+#define LOCKED 1
 /* mutex struct definition */
 typedef struct worker_mutex_t
 {
-    atomic_flag __lock;
+    int __lock;
+    int __malloced;
     Queue* blocked_threads;
 
 } worker_mutex_t;
